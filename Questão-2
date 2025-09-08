@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "pt-BR"
+<head>
+	<meta charset = "UTF-8">
+	<title>Tabela de Produtos</title>
+	<style>
+	  table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: #f5f5f5;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      font-family: Arial, Sans-Serif;
+    }
+
+    th {
+      background-color: #AEDB56;
+      color: #000;
+    }
+	</style>
+</head>
+<body>
+	<h2>Tabela de Produtos</h2>
+	<table border = "1">
+		<tr>
+			<th>Produto</th>
+			<th>Descrição</th>
+			<th>Preço</th>
+		</tr>
+		<tr>
+			<td>Notebook Intel</td>
+			<td>Notebook com Processador i7® | Intel® Core™ de última geração</td>
+			<td>R$3000,00</td>
+		</tr>
+		<tr>
+			<td>Smartphone</td>
+			<td>Smartphone Samsung Galaxy S24 FE 5G 256GB 8GB RAM </td>
+			<td>R$2.429,90</td>
+		</tr>
+		<tr>
+			<td>Monitor</td>
+			<td>Monitor Gamer, 24", FHD, 75Hz, HDMI, VGA, Freesync, Preto</td>
+			<td>R$601,00</td>
+		</tr>
+		<tr>
+			<td>Teclado</td>
+			<td>Teclado Multilaser USB Slim Preto</td>
+			<td>R$25,99</td>
+		</tr>
+	</table>
+
+</body>
+</html>
